@@ -3,48 +3,42 @@
 
 @import "{{ site.theme }}";
 
-/* Over-ride defaults */
+/* General Format Updates */
+body { background-color: #FFFFFF; }
 
-body { background-color: #FFFFFF; margin:0 0 0 20px; }
+p, ul, ol, table, dl { margin-bottom: 15px; }
 
 code, pre { font-size: 12px; }
 
-a, a:visited { color: #050692; } /* Roa Logic Blue Links */
-a.github, a.github:visited { color: #FFFFFF; } /* White Button Text */
+a { color: #050692; } /* Roa Logic Blue for Links */
 
+/* Add Roa Logic Font */
+h1, h2, h3, h4, h5, h6 { font-family: Montserrat, Monaco, serif; }
+
+h4, h5, h6 { font-weight: 700; }
+
+th { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+h1.header { font-family: Montserrat, sans-serif; }
+
+/*
+ * Page Section Updates
+ */
+
+
+/* Reduce left margin by 10px */
 header {
-	/*padding: 34px 25px 22px 40px;*/
-	background-color: #159957;
-	background-image: linear-gradient(120deg, #155799, #159957);
-	-webkit-border-radius: 4px;
-	-moz-border-radius: 4px;
-	border-radius: 4px;
-	border: 0px;
-	margin: 20px 20px;
+  padding: 34px 25px 22px 40px;
+  background-color: #159957;
+  background-image: linear-gradient(120deg, #155799, #159957);
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  border: 0px;
+  margin: 30px 25px;
 }
 
-/*footer { padding: 0 0 0 40px; }*/
-
-footer { text-align:center; }
-
-/* Use RoaLogic.com Fonts */
-
-h1, h2, h3 {
-	font-family: Montserrat, Monaco, serif;
-}
-
-h4, h5, h6 {
-	font-family: Montserrat, Monaco, serif;
-	font-weight: 700;
-}
-
-th {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-h1.header {
- 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+footer { text-align: center; }
 
 /* Recolour Buttons (Roa Logic Blue) */
 header li {
@@ -75,7 +69,9 @@ header li:hover {
 
 /* Format Logo in Header */
 p.logo {
-	margin: 10px 0px 10px 0px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin: 0px 10px 0px 10px;
 }
-
 
