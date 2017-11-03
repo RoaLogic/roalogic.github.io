@@ -1,12 +1,12 @@
-# Roa Logic
+![RoaLogicHeader](assets/img/Tagged_Logo.png)
 
-Roa Logic provides optimized, flexible IP solutions. All IP is silicon proven and supports both FPGA and ASIC implementations. All IP comes packed with a full featured testbench and documentation. In addition we provide custom solutions on request.
+Roa Logic provides Silicon-Proven IP solutions for FPGA and ASIC implementations. All IP comes packed with a full featured testbench and documentation. In addition custom solutions are provided on request.
 
-Most of our IPs are available for direct download for free, from our [GitHub repositories](https://github.com/roalogic) for non-commercial applications. For commercial applications or if you find any IP missing or would like modifications please contact us (info@roalogic.com).
+The majority of our IPs are available for direct download for free, from our [GitHub repositories](https://github.com/roalogic) for non-commercial applications. For commercial applications or if you find any IP missing or would like modifications please contact us (info@roalogic.com).
 
 ## Projects
 
-The following projects are current availableas GitHub repositories:
+The following projects are current available as GitHub repositories:
 
 - [RV12 RISC-V CPU Core](https://roalogic.github.io/RV12)
 - [RISC-V PLIC Core](https://roalogic.github.io/plic)
@@ -16,11 +16,10 @@ The following projects are current availableas GitHub repositories:
 - [AHB-Lite / APB4 Bridge](https://roalogic.github.io/ahb3lite_apb_bridge)
 - [APB4 Multiplexer](https://roalogic.github.io/apb4_mux)
 - [APB4 GPIO](https://roalogic.github.io/apb4_gpio)
-- [Hamming ECC](https://roalogic.github.io/Hamming-ECC)
 
 ## Non-Commercial & BSD License Terms
 
-Roa Logic provides most of it’s cores for free for non-commercial applications and purposes."[Non-Commercial](docs/license_noncom.md)" or "[BSD](docs/license_bsd.md)" style license agreements apply and are included in each project repository.
+Roa Logic provides most of it’s cores for free for non-commercial applications and purposes."[Non-Commercial](docs/license_noncom.md)" or "[BSD](docs/license_bsd.md)" style license agreements apply and are included in each IP repository.
 
 ## About Us
 
@@ -43,7 +42,7 @@ Roa Logic leverages technology independent HDL (Hardware Description Language) u
 
 ### Products
 
-Roa Logic's portfolio consists of RISC-V compliant embedded processors featuring AMBA Interfaces, associated peripherals & interfaces, Bridging & Switching and Error Correction cores
+Roa Logic's portfolio consists of RISC-V compliant embedded processors featuring AMBA Interfaces, associated peripherals & interfaces, bridging & switching and error correction cores
 
 ## Contact
 
@@ -52,8 +51,8 @@ Burgemeester Snijdersstraat 17
 6363BG Wijnandsrade  
 The Netherlands
 
-+31 (45) 405 5681  
-info@roalogic.com
+☎︎ +31 (45) 405 5681  
+✉︎  info@roalogic.com
 
 IBAN: NL75 INGB 0006 5617 87, BIC: INGBNL2A
 
