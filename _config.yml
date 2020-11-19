@@ -1,8 +1,30 @@
-theme: jekyll-theme-dinky
-title: Roa Logic GitHub Site
-description: Roa Logic IP Projects Summary
+title: "Roa Logic GitHub Site"
+description: "Roa Logic IP Projects Overview"
+maintenance: "Projects maintained by:"
 show_downloads: false
 show_license: false
-license: BSD
-github: [metadata]
 
+repository: RoaLogic/roalogic.github.io
+
+url: https://roalogic.github.io
+baseurl: /
+
+include:
+  - _pages                  # Non-datasheet GH Pages
+
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - "*.graffle"             # Original Omnigraffle sources
+  - "*.sh"                  # Ignore any scripts                    # Original source texfiles
+  - Gemfile
+  - Gemfile.lock
+
+defaults:
+  # _pages
+  - scope:
+      path    : ""
+      type    : pages
+    values:
+      layout  : roalogic    # Use custom layout for *all* pages
+      author  : Roa Logic

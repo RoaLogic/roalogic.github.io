@@ -1,0 +1,453 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700,400italic');
+
+/* MeyerWeb Reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+
+/* Base text styles */
+
+body {
+  padding:0 30px 0 0;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: $fs-body;
+  color: $foreground;
+  background-color: $background;
+  margin: 0;
+  line-height: 1.8em;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $foreground;
+  margin:36px 0 10px;
+}
+
+p, ul, ol, table, dl {
+  margin:0 0 22px;
+}
+
+h1, h2, h3 {
+  font-family: Montserrat, Monaco, serif;
+  line-height: 1.3;
+  font-weight: normal;
+}
+
+h1,h2, h3 {
+  display: block;
+  border-bottom:  1px solid $separator;
+  padding-bottom: 5px;
+}
+
+h1 {
+  font-size: $fs-h1;
+}
+
+h2 {
+  font-size: $fs-h2;
+}
+
+h3 {
+  font-size: $fs-h3;
+}
+
+h4, h5, h6 {
+  font-family: Montserrat, Monaco, serif;
+  font-weight: 700;
+}
+
+a {
+  color:$rlblue; /* Roa Logic Blue for Links */
+  font-weight: 200;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a small {
+  font-size: $fs-small;
+}
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: 700;
+}
+
+ul {
+  list-style-position: inside;
+  list-style: disc;
+  padding-left: 25px;
+}
+
+ol {
+  list-style-position: inside;
+  list-style: decimal;
+  padding-left: 25px;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0 0 0 20px;
+  font-style: italic;
+}
+
+dl, dt, dd, dl p {
+  color: #444;
+}
+
+dl dt {
+  font-weight: bold;
+}
+
+dl dd {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+dl p {
+  padding-left: 20px;
+  font-style: italic;
+}
+
+hr {
+  border:0;
+  background:$separator;
+  height:1px;
+  margin:0 0 24px;
+}
+
+/* Images */
+
+img {
+  position: relative;
+  margin: 0 auto;
+  max-width: 650px;
+  padding: 5px;
+  margin: 10px 0 32px 0;
+  border: 1px solid $separator;
+}
+
+p img, .emoji {
+  display: inline;
+  margin: 0;
+  padding: 0;
+  vertical-align: middle;
+  text-align: center;
+  border: none;
+}
+
+/* Code blocks */
+
+code, pre {
+  font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+  color:$rlcode_fg;
+  font-size: $fs-small;
+}
+
+pre {
+  padding: 4px 12px;
+  background: $rlcode_bg;
+  border-radius:4px;
+  border:1px solid $rlcode_bdr;
+  overflow: auto;
+  overflow-y: hidden;
+  margin-bottom: 32px;
+}
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+/* Tables */
+
+table {
+  width:100%;
+}
+
+table {
+  border: 1px solid $separator;
+  margin-bottom: 32px;
+  text-align: left;
+ }
+
+th {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: $fs-h3;
+  font-weight: normal;
+  padding: 10px;
+  background: $table_hdr_bgnd;
+  color: $table_hdr_fgnd;
+ }
+
+td {
+  padding: 10px;
+  background: $separator;
+ }
+
+ul, ul p {
+    margin: 0px;
+}
+
+figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  width: 100%;
+  max-width: 500px;
+}
+
+figcaption {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+
+/* Wrapper */
+.wrapper {
+  width:960px;
+}
+
+
+/* Header */
+
+header {
+  background-color: $rlhdr_green;
+  background-image: linear-gradient(120deg, $rlhdr_blue, $rlhdr_green);
+  color: #FDFDFB;
+  width:190px;
+  float:left;
+  position:fixed;
+  border: 0px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  padding: 30px 30px 0 30px;
+  margin: 30px 0px 0px 30px;
+  -webkit-font-smoothing: antialiased;
+}
+
+p.header {
+  font-size: $fs-hdr;
+}
+
+h1.header {
+  font-family: Montserrat, sans-serif;
+  font-size: $fs-h1;
+  font-weight: 300;
+  line-height: 1.3em;
+  border-bottom: none;
+  margin-top: 0;
+}
+
+
+h1.header, a.header, a.name, header a{
+  color: $background;
+}
+
+a.header {
+  text-decoration: underline;
+}
+
+a.name {
+  white-space: nowrap;
+}
+
+header ul {
+  list-style:none;
+  padding:0;
+}
+
+/* Recolour Buttons (Roa Logic Blue) */
+
+header li {
+  list-style-type: none;
+  width:132px;
+  height:15px;
+  margin-bottom: 12px;
+  line-height: 1em;
+  padding: 6px 6px 6px 7px;
+
+  background: $light_blue;
+  background: -moz-linear-gradient(top, $light_blue 0%, $dark_blue 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$light_stop), color-stop(100%,$dark_stop));
+  background: -webkit-linear-gradient(top, $light_blue 0%,$dark_blue 100%);
+  background: -o-linear-gradient(top, $light_blue 0%,$dark_blue 100%);
+  background: -ms-linear-gradient(top, $light_blue 0%,$dark_blue 100%);
+  background: linear-gradient(top, $light_blue 0%,$dark_blue 100%);
+
+  border-radius:4px;
+  border:1px solid #0D0D0D;
+
+  -webkit-box-shadow: inset 0px 1px 1px 0 rgba(0,102,204, 1);
+  box-shadow: inset 0px 1px 1px 0 rgba(0,102,204, 1);
+
+}
+
+header li:hover {
+  background: $light_fade;
+  background: -moz-linear-gradient(top, $light_fade 0%, $dark_fade 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,$light_stop), color-stop(100%,$dark_stop));
+  background: -webkit-linear-gradient(top, $light_fade 0%,$dark_fade 100%);
+  background: -o-linear-gradient(top, $light_fade 0%,$dark_fade 100%);
+  background: -ms-linear-gradient(top, $light_fade 0%,$dark_fade 100%);
+  background: linear-gradient(top, $light_fade 0%,$dark_fade 100%);
+}
+
+a.buttons {
+  -webkit-font-smoothing: antialiased;
+  background: url($arrow) no-repeat;
+  font-weight: normal;
+  text-shadow: rgba(0, 0, 0, 0.4) 0 -1px 0;
+  padding: 2px 2px 2px 22px;
+  height: 30px;
+}
+
+a.github {
+  background: url($octocat) no-repeat 1px;
+}
+
+a.buttons:hover {
+  color: $background;
+  text-decoration: none;
+}
+
+
+/* Section - for main page content */
+
+section {
+  width:650px;
+  float:right;
+  padding-bottom:50px;
+}
+
+
+/* Footer */
+
+footer {
+  width:190px;
+  float:left;
+  transform: rotate(270deg);
+  transform-origin: 20px;
+  position:fixed;
+  bottom:0px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+
+
+@media print, screen and (max-width: 960px) {
+
+  div.wrapper {
+    width:auto;
+    margin:0;
+  }
+
+  header, section, footer {
+    float:none;
+    position:static;
+    width:auto;
+    transform: none;
+  }
+
+  footer {
+    border-top: 1px solid $separator;
+    margin:0 84px 0 50px;
+    padding:0;
+    transform: none;
+  }
+
+  header {
+    padding-right:320px;
+  }
+
+  section {
+    padding:20px 84px 20px 50px;
+    margin:0 0 20px;
+  }
+
+  header a small {
+    display:inline;
+  }
+
+  header ul {
+    position:absolute;
+    right:130px;
+    top:84px;
+  }
+}
+
+@media print, screen and (max-width: 720px) {
+  body {
+    word-wrap:break-word;
+  }
+
+  header {
+    padding:10px 20px 0;
+    margin-right: 0;
+  }
+
+  section {
+    padding:10px 0 10px 20px;
+    margin:0 0 30px;
+  }
+
+  footer {
+    margin: 0 0 0 30px;
+    transform: none;
+  }
+
+  header ul, header p.view {
+    position:static;
+  }
+}
+
+@media print, screen and (max-width: 480px) {
+
+  header ul li.download {
+    display:none;
+  }
+
+  footer {
+    margin: 0 0 0 20px;
+    transform: none;
+  }
+
+  footer a{
+    display:block;
+  }
+
+}
+
+@media print {
+  body {
+    padding:0.4in;
+    font-size: $fs-small;
+    color:#444;
+  }
+}

@@ -1,4 +1,12 @@
-![RoaLogicHeader](assets/img/Tagged_Logo.png)
+---
+title: Roa Logic Product Documentation
+permalink: /
+---
+
+![RoaLogic](assets/img/RoaLogicHeader.png)
+{: .logohdr}
+
+# Projects Overview
 
 Roa Logic provides Silicon-Proven IP solutions for FPGA and ASIC implementations. All IP comes packed with a full featured testbench and documentation. In addition custom solutions are provided on request.
 
@@ -19,7 +27,7 @@ The following projects are current available as GitHub repositories:
 
 ## Non-Commercial & BSD License Terms
 
-Roa Logic provides most of it’s cores for free for non-commercial applications and purposes."[Non-Commercial](docs/license_noncom.md)" or "[BSD](docs/license_bsd.md)" style license agreements apply and are included in each IP repository.
+Roa Logic provides most of it’s cores for free for non-commercial applications and purposes."[Non-Commercial](/license_nc)" or "[BSD](/license_bsd)" style license agreements apply and are included in each IP repository.
 
 ## About Us
 

@@ -1,5 +1,6 @@
 ---
 title: BSD License Agreement
+permalink: /license_bsd/
 ---
 # BSD License Agreement
 
