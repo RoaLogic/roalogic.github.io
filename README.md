@@ -46,6 +46,7 @@ Roa Logic's portfolio consists of RISC-V compliant embedded processors featuring
 
 ## Contact
 
+![Roa Logic Logo][]  
 **Roa Logic BV**  
 Burgemeester Snijdersstraat 17  
 6363BG Wijnandsrade  
